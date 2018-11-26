@@ -16,3 +16,11 @@
 .weight-700 {
   font-weight: 700;
 }
+
+.code-snippet {
+  padding: 1px 5px;
+  background-color: #FDF6E3;
+  border-radius: 2px;
+  border: 1px solid #E4E0D6;
+  color: #555555; /*dove-gray*/
+}

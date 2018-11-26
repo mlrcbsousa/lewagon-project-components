@@ -1,7 +1,7 @@
 @import 'components/colors.css';
 @import 'components/fonts.css';
-@import 'components/sidebar.css';
 @import 'components/avatar.css';
+@import 'components/sidebar.css';
 @import 'components/percentage.css';
 @import 'components/stats.css';
 @import 'components/chart.css';
@@ -22,7 +22,12 @@ p {
   width: 5rem;
   height: 5rem;
 }
-.section-block {
+.section-flex {
   display: flex;
+}
+.justify-center {
   justify-content: space-between;
+}
+.align-center {
+  align-items: center;
 }
