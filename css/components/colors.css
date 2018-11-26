@@ -1,0 +1,47 @@
+
+/*colors*/
+.color {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/*primary*/
+.black {
+  background-color: #000000;
+}
+.white {
+  background-color: #FFFFFF;
+}
+.blue {
+  background-color: #00ACC1;
+}
+/*background*/
+.background-color {
+  background-color: #F7F9FB;
+}
+/*text*/
+.iron {
+  background-color: #DCDEE0;
+}
+.dove-gray {
+  background-color: #555555;
+}
+.mine-shaft {
+  background-color: #222222;
+}
+/*optional*/
+.orange {
+  background-color: #FF4D40;
+}
+.yellow {
+  background-color: #FFDE33;
+}
+.meadow {
+  background-color: #1BE2B0;
+}
+.turquoise {
+  background-color: #46CEE0;
+}
+.malibu {
+  background-color: #3EBDF7;
+}

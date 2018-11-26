@@ -1,0 +1,28 @@
+@import 'components/colors.css';
+@import 'components/fonts.css';
+@import 'components/sidebar.css';
+@import 'components/avatar.css';
+@import 'components/percentage.css';
+@import 'components/stats.css';
+@import 'components/chart.css';
+@import 'components/form.css';
+
+/*base*/
+html {
+  font-size: 14px;
+}
+p {
+  margin: 0;
+}
+.circle {
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+.circle-lg {
+  width: 5rem;
+  height: 5rem;
+}
+.section-block {
+  display: flex;
+  justify-content: space-between;
+}
