@@ -15,11 +15,24 @@
 </head>
 <body>
   <!-- sidebar -->
-  <div id="sidebar">
+  <div id="sidebar" class="iron">
+    <div class="logo">
+      <a href=""><div class="circle avatar-sm background-color"></div></a>
+    </div>
 
+    <div id="sidebar-nav" class="sidebar-link">
+      <a href=""><i class="fas fa-signal"></i></a>
+      <a href=""><i class="fas fa-users"></i></a>
+      <a href=""><i class="fas fa-user-circle"></i></a>
+    </div>
+
+    <div class="sidebar-link">
+      <a href=""><i class="fab fa-trello"></i></a>
+    </div>
   </div>
 
-  <div class="container">
+
+  <div class="margin-sidebar components">
     <h1>Components</h1>
     <hr>
     <hr>
@@ -45,19 +58,19 @@
     <div class="section-flex text-center">
       <div class="p-3">
         <p>Large</p>
-        <img src='https://kitt.lewagon.com/placeholder/users/Bitais' class="avatar-lg circle"/>
+        <img src='https://kitt.lewagon.com/placeholder/users/Bitais' class="avatar avatar-lg"/>
       </div>
       <div class="p-3">
         <p>Regular</p>
-        <img src='https://kitt.lewagon.com/placeholder/users/welan125' class="avatar circle"/>
+        <img src='https://kitt.lewagon.com/placeholder/users/welan125' class="avatar avatar-md"/>
       </div>
       <div class="p-3">
         <p>Small</p>
-        <img src='https://kitt.lewagon.com/placeholder/users/sisserian' class="avatar-sm circle"/>
+        <img src='https://kitt.lewagon.com/placeholder/users/sisserian' class="avatar avatar-sm"/>
       </div>
       <div class="p-3">
         <p>Rounded</p>
-        <img src='https://kitt.lewagon.com/placeholder/users/mlrcbsousa' class="avatar rounded"/>
+        <img src='https://kitt.lewagon.com/placeholder/users/mlrcbsousa' class="avatar-md rounded"/>
       </div>
     </div>
     <hr>
@@ -82,10 +95,60 @@
 
     <!-- percentage -->
     <h3>Percentage bars</h3>
+    <p>Base</p>
+    <div class="bar-base bar-frame iron">
+      <div class="bar-content">
+        <div class="bar">
+          <div class="bar-progress blue"></div>
+          <div class="bar-remain dove-gray"></div>
+        </div>
+        <div class="bar-percent text-center">
+          <h4 class="roboto weight-300">70%</h4>
+        </div>
+      </div>
+    </div>
+
+    <p>Team progress</p>
+    <div class="bar-base-team bar-frame bar-frame-team iron">
+      <div class="bar-content">
+        <div class="bar-avatar text-center">
+          <img src='https://kitt.lewagon.com/placeholder/users/sisserian' class="avatar avatar-sm"/>
+        </div>
+        <div class="bar">
+          <div class="bar-progress blue"></div>
+          <div class="bar-remain dove-gray"></div>
+        </div>
+        <div class="bar-percent text-center">
+          <h2 class="montserrat weight-700">70%</h2>
+        </div>
+      </div>
+    </div>
+
+
+    <p>Profile progress</p>
+    <div class="bar-base-profile bar-frame bar-frame-team iron">
+      <div class="bar-content">
+        <div class="bar-avatar text-center">
+          <img src='https://kitt.lewagon.com/placeholder/users/welan125' class="avatar avatar-md"/>
+        </div>
+        <div class="bar-subcontent">
+          <div class="bar-description">
+            <h3 class="montserrat">Chad Braderton</h3>
+          </div>
+          <div class="bar bar-profile">
+            <div class="bar-progress blue"></div>
+            <div class="bar-remain dove-gray"></div>
+          </div>
+        </div>
+        <div class="bar-percent text-center">
+          <h1 class="montserrat weight-700">70%</h1>
+        </div>
+      </div>
+    </div>
     <hr>
 
     <!-- stats -->
-    <h3>Stats card</h3>
+    <h3>Stats</h3>
     <hr>
 
     <!-- chart -->

@@ -11,12 +11,15 @@
 html {
   font-size: 14px;
 }
-p {
+h1, h2, h3, h4, h5, p {
   margin: 0;
+  padding: 0;
 }
 .circle {
   border-radius: 50%;
   border: 1px solid lightgray;
+  width: 3rem;
+  height: 3rem;
 }
 .circle-lg {
   width: 5rem;
@@ -30,4 +33,10 @@ p {
 }
 .align-center {
   align-items: center;
+}
+.components {
+  width: 1000px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px 40px;
 }
