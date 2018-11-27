@@ -1,0 +1,7 @@
+.form-main {
+  padding: 10px;
+  border-radius: 3px;
+}
+.form-main > input {
+  padding-bottom: 0;
+}
