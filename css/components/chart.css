@@ -1,0 +1,14 @@
+.chart-frame {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+
+  border-radius: 4px;
+  background-color: #DCDEE0; /*iron*/
+}
+
+.chart {
+
+}
